@@ -1,24 +1,26 @@
 # 🎬 Netflix Recommendation System
 
-This project is a movie recommendation system built using collaborative filtering with the Surprise library.
+This project builds a movie recommendation system using collaborative filtering (SVD) with the Surprise library.
 
-## 🔧 Technologies Used
+## 🚀 Features
+- Predicts movie ratings
+- Recommends movies based on user preferences
+- Uses collaborative filtering
+
+## 🧠 Model Used
+- SVD (Singular Value Decomposition)
+
+## 📊 Evaluation
+- RMSE used for accuracy measurement
+
+## 🛠 Tech Stack
 - Python
-- Scikit-Surprise
 - Pandas
 - NumPy
-
-## 📊 Features
-- User-based recommendation
-- Movie rating prediction
-- Dataset preprocessing
+- Scikit-Surprise
 
 ## ▶️ How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
-2. Run the notebook:
-   NETFLIX.ipynb
-
-## 📌 Author
-Soubhagya
+## 📌 Project Goal
+To understand how platforms like Netflix recommend movies to users.
